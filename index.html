@@ -14,29 +14,42 @@
             height: 100vh;
             margin: 0;
             font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
         }
         input {
             width: 80%;
-            padding: 10px;
-            margin-bottom: 20px;
+            padding: 15px;
+            margin-bottom: 30px;
             font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         button {
-            width: 50%;
-            padding: 15px;
+            width: 60%;
+            padding: 20px;
             font-size: 18px;
-            background-color: #0088cc;
+            font-weight: bold;
             color: white;
+            background-color: #ff4d4d;
             border: none;
-            border-radius: 5px;
+            border-radius: 10px;
             cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
         }
         button:hover {
-            background-color: #005f99;
+            background-color: #e63939;
         }
     </style>
 </head>
 <body>
+    <h1>TelegramWebTest</h1>
     <input type="text" id="inputField" placeholder="Введите текст...">
     <button id="okButton">ОК</button>
 
